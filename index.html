@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <ul class="menu__items">
+          <li class="menu__item">
+            <a href="#Contacts">Contacts</a>
+          </li>
+          <li class="menu__item">
+            <a href="#Summary">Summary</a>
+          </li>
+          <li class="menu__item">
+            <a href="#Skills">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a href="#Code">Code</a>
+          </li>
+          <li class="menu__item">
+            <a href="#Education">Education</a>
+          </li>
+          <li class="menu__item">
+            <a href="#English">English</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="main__page">
+          <div class="main__photo">
+            <img src="img/wp9139389.jpg" alt="Error" />
+          </div>
+          <div class="main__info">
+            <h1 class="main__name">Smagulov Timur</h1>
+            <span class="main__line"></span>
+            <h2 class="main__dream">front-end developer</h2>
+          </div>
+        </section>
+
+        <span class="line"></span>
+
+        <section class="information">
+          <div id="Contacts" class="information__block">
+            <h3 class="information__title">Contacts</h3>
+            <div class="information__descr">
+              <ul>
+                <li>email: deikku@mail.ru</li>
+                <li>telegram: deikku</li>
+                <li>discord: Timurbo48#2577</li>
+              </ul>
+            </div>
+          </div>
+          <div id="Summary" class="information__block">
+            <h3 class="information__title">summary</h3>
+            <div class="information__descr">
+              Hello, my name is Timur, I am 19 years old. I am studying
+              front-end web developer. And in 2023 I will definitely get my
+              first offer. I currently live in Astana and am a student of the
+              L.N. Gumilev Eurasian National University. However, I am
+              persistent, quick to learn and hardworking. I like frontend, and I
+              hope that this school will help me achieve my goals.
+            </div>
+          </div>
+          <div id="Skills" class="information__block">
+            <h3 class="information__title">Skills</h3>
+            <div class="information__descr">
+              <ul>
+                <li>
+                  Web-development: HTML5, CSS3, SCSS, BEM, Tailwind, Bootstrap,
+                  JavaScript, TypeScript, Node JS
+                </li>
+                <li>Frameworks: React JS</li>
+                <li>Version control: Git, GitHub</li>
+              </ul>
+            </div>
+          </div>
+          <div id="Code" class="information__block">
+            <h3 class="information__title">Code example</h3>
+            <div class="information__descr">
+              const __hasProp = Object.prototype.hasOwnProperty;
+              <br />
+              <span style="margin-left: 20px">
+                function groupBy(array, prop, result = {}) {</span
+              >
+              <br />
+              <span style="margin-left: 40px">array.forEach((el) => {</span>
+              <br />
+              <span style="margin-left: 60px">
+                if (__hasProp.call(el, prop)) {</span
+              >
+              <br />
+              <span style="margin-left: 80px">
+                result[el[prop]] ? result[el[prop]].push(el) : (result[el[prop]]
+                = [el]);
+              </span>
+              <br />
+              <span style="margin-left: 60px">}</span>
+              <br />
+              <span style="margin-left: 40px">});</span>
+              <br />
+              <br />
+              <span style="margin-left: 20px">return result;</span>
+              <br />
+              }
+            </div>
+          </div>
+          <div id="Education" class="information__block">
+            <h3 class="information__title">Education</h3>
+            <div class="information__descr">
+              Student of L.N. Gumilyov Eurasian National University
+              <br />
+              <a href="https://www.udemy.com/user/timur-smagulov-2/">Udemy</a>
+              <br />
+              <a href="https://www.codewars.com/users/deikku">CodeWars</a>
+            </div>
+          </div>
+          <div id="English" class="information__block">
+            <h3 class="information__title">English language</h3>
+            <div class="information__descr">B1 (Intermediate)</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__descr">©️2022</div>
+          <div class="footer__img">
+            <img src="img/logo_rs2.svg" alt="RsSchool" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
